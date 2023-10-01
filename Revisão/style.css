@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  background-color: rgb(36, 36, 36);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.page{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-family: 'Mukta', sans-serif;
+}
+
+ul li a{
+  opacity: 0.5;
+}
+
+ul li a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+#logo{
+  width: 150px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Mukta', sans-serif;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+h1 span{
+  font-weight: bold;
+  color: red;
+}
+
+p{
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+button{
+  padding: 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #d30000;
+  cursor: pointer;
+}
+
+#line{
+  border: 1px red solid;
+  margin: auto;
+  margin: 30px auto;
+  width: 650px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer a:hover{
+  font-weight: bold;
+}
